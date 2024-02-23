@@ -10,7 +10,7 @@ export default function Header() {
         <View style={styles.container}>
             <Image style={{ width: 150, height: 50 }} source={logo} />
 
-            <View style={{ flexDirection: 'row' }}>
+            <View style={styles.icons}>
                 <TouchableOpacity >
                     <Feather style={{ marginRight: 25 }} name="heart" size={24} color="black" />
                 </TouchableOpacity>
@@ -34,4 +34,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         flexDirection: 'row'
     },
+    icons: {
+        flexDirection:'row',
+    },  
 });
