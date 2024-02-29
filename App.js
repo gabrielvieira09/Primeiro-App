@@ -1,16 +1,16 @@
-import { StyleSheet, View,} from 'react-native';
-import Header from "./src/components/Header";
-import Storys from "./src/components/Storys";
+import { StyleSheet, View } from 'react-native';
+import Faustao from "./src/assets/faustao.jpg";
+import InfoProfile from './src/components/InfoProfile';
 
 export default function App() {
   return (
-    <View 
-      style={{
-        marginVertical: 32
-      }}
-    >
-      <Header />
-      <Storys />
+    <View>
+      <InfoProfile
+        image={Faustao}
+        publi={950}
+        followers={5000}
+        following={2}
+      />
     </View>
   );
 }
