@@ -12,16 +12,16 @@ export default function InfoProfile({
             <Image style={{ width: 100, height: 100, borderRadius: 50 }} source={image} />
             </TouchableOpacity>
             <View style={styles.views}>
-                <Text>{publi}</Text>
-                <Text style={{fontWeight:'bold'}}>Publicações</Text>
+                <Text style={{fontWeight:'bold'}}>{publi}</Text>
+                <Text>Publicações</Text>
             </View>
             <View style={styles.views}>
-                <Text>{followers}</Text>
-                <Text style={{fontWeight:'bold'}}>Seguidores</Text>
+                <Text style={{fontWeight:'bold'}}>{followers}</Text>
+                <Text>Seguidores</Text>
             </View>
             <View style={styles.views}>
-                <Text>{following}</Text>
-                <Text style={{fontWeight:'bold'}}>Seguindo</Text>
+                <Text style={{fontWeight:'bold'}}>{following}</Text>
+                <Text>Seguindo</Text>
             </View>
         </View>
     )
