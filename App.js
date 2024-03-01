@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import Faustao from "./src/assets/faustao.jpg";
 import InfoProfile from './src/components/InfoProfile';
+import MyPosts from './src/components/MyPosts';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         followers={5000}
         following={2}
       />
+      <MyPosts />
     </View>
   );
 }
