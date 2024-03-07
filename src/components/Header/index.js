@@ -26,7 +26,6 @@ export default function Header() {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#fff',
         marginHorizontal: 17.5,
         marginBottom: 10,
         marginTop: 20,

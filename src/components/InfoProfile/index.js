@@ -29,7 +29,6 @@ export default function InfoProfile({
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#fff',
         marginBottom: 10,
         marginTop: 40,
         marginLeft: 10,
